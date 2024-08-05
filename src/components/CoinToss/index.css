@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.main {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  color: #a35200;
+  font-family: 'roboto';
+  font-size: 60px;
+}
+.para {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: 0px;
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+.count-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.toss-img {
+  width: 200px;
+  height: 200px;
+}
+.count-para {
+  font-family: 'roboto';
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+@media screen and (max-width:768px){
+  .head {
+  color: #a35200;
+  font-family: 'roboto';
+  font-size:20px;
+}
+.para {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 15px;
+}
+.count-para {
+  font-family: 'roboto';
+  font-size: 10px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+}
